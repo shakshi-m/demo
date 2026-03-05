@@ -915,7 +915,7 @@ button {
     grid-template-columns: repeat(2, 1fr);
   }
   .img-card {
-    width: fit-content; 
+    width: fit-content;
   }
   .occasinal-wear {
     grid-template-columns: repeat(2, 1fr);
@@ -980,8 +980,10 @@ button {
 
   .occasinal-wear {
     grid-template-columns: 1fr;
-    justify-content: space-evenly;
+    display: flex;
+    justify-content: center;
     align-items: center;
+    flex-direction: column;
   }
   .img-content h3 {
     color: white;
